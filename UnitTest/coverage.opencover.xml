@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CoverageSession>
+  <Summary numSequencePoints="24" visitedSequencePoints="6" numBranchPoints="24" visitedBranchPoints="6" sequenceCoverage="0.25" branchCoverage="0.25" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="1" numClasses="3" visitedMethods="1" numMethods="5" />
+  <Modules>
+    <Module hash="998FECFE-1542-457A-A402-93D44CD5886B">
+      <ModulePath>/home/akirik/dotnetweb/UnitTest/bin/Debug/netcoreapp2.0/Main.dll</ModulePath>
+      <ModuleTime>2018-06-12T03:43:11</ModuleTime>
+      <ModuleName>Main</ModuleName>
+      <Files>
+        <File uid="1" fullPath="/home/akirik/dotnetweb/Main/Program.cs" />
+        <File uid="2" fullPath="/home/akirik/dotnetweb/Main/Startup.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="6" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="2" />
+          <FullName>Main.Program</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Main.Program::Main(System.String[])</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" upsid="16" ordinal="0" sl="16" sc="1" el="16" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" upsid="17" ordinal="1" sl="17" sc="1" el="17" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" upsid="18" ordinal="2" sl="18" sc="1" el="18" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" upsid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="16" ec="1" el="18" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>Microsoft.AspNetCore.Hosting.IWebHost Main.Program::BuildWebHost(System.String[])</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" upsid="21" ordinal="0" sl="21" sc="1" el="21" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" upsid="22" ordinal="1" sl="22" sc="1" el="22" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" upsid="23" ordinal="2" sl="23" sc="1" el="23" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" upsid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="21" ec="1" el="23" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="18" visitedSequencePoints="6" numBranchPoints="6" visitedBranchPoints="2" sequenceCoverage="0.333" branchCoverage="0.333" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="3" />
+          <FullName>Main.Startup</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="2" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Main.Startup::ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="0" upsid="17" ordinal="0" sl="17" sc="1" el="17" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" upsid="18" ordinal="1" sl="18" sc="1" el="18" ec="2" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" upsid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="17" ec="1" el="18" bec="0" bev="0" fileid="2" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="10" visitedSequencePoints="0" numBranchPoints="4" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Main.Startup::Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment)</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="0" upsid="22" ordinal="0" sl="22" sc="1" el="22" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" upsid="23" ordinal="1" sl="23" sc="1" el="23" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" upsid="24" ordinal="2" sl="24" sc="1" el="24" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" upsid="25" ordinal="3" sl="25" sc="1" el="25" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" upsid="26" ordinal="4" sl="26" sc="1" el="26" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" upsid="28" ordinal="5" sl="28" sc="1" el="28" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" upsid="29" ordinal="6" sl="29" sc="1" el="29" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" upsid="30" ordinal="7" sl="30" sc="1" el="30" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" upsid="31" ordinal="8" sl="31" sc="1" el="31" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" upsid="32" ordinal="9" sl="32" sc="1" el="32" ec="2" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" upsid="23" ordinal="0" path="0" offset="9" offsetend="11" sl="23" fileid="2" />
+                <BranchPoint vc="0" upsid="23" ordinal="1" path="1" offset="9" offsetend="20" sl="23" fileid="2" />
+                <BranchPoint vc="0" upsid="28" ordinal="2" path="0" offset="27" offsetend="29" sl="28" fileid="2" />
+                <BranchPoint vc="0" upsid="28" ordinal="3" path="1" offset="27" offsetend="52" sl="28" fileid="2" />
+              </BranchPoints>
+              <MethodPoint vc="0" upsid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="22" ec="1" el="32" bec="0" bev="0" fileid="2" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="1" branchCoverage="1" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="2" visitedBranchPoints="2" sequenceCoverage="1" branchCoverage="1" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Boolean Main.Startup::IsEven(System.Int32)</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="8" upsid="35" ordinal="0" sl="35" sc="1" el="35" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="8" upsid="36" ordinal="1" sl="36" sc="1" el="36" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="4" upsid="37" ordinal="2" sl="37" sc="1" el="37" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="4" upsid="38" ordinal="3" sl="38" sc="1" el="38" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="4" upsid="40" ordinal="4" sl="40" sc="1" el="40" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="8" upsid="41" ordinal="5" sl="41" sc="1" el="41" ec="2" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="15" upsid="36" ordinal="0" path="0" offset="9" offsetend="11" sl="36" fileid="2" />
+                <BranchPoint vc="15" upsid="36" ordinal="1" path="1" offset="9" offsetend="16" sl="36" fileid="2" />
+              </BranchPoints>
+              <MethodPoint vc="6" upsid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="35" ec="1" el="41" bec="0" bev="0" fileid="2" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="4" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="0" />
+          <FullName>Main.Startup/&lt;&gt;c/&lt;&lt;Configure&gt;b__1_0&gt;d</FullName>
+          <Methods />
+        </Class>
+      </Classes>
+    </Module>
+  </Modules>
+</CoverageSession>
