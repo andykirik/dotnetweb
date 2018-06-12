@@ -8,5 +8,5 @@ env:
         - DOTNET_CLI_TELEMETRY_OPTOUT: 1
 
 script:
-    - dotnet build dotNetSecondApp.sln -c Release
+    - dotnet build dotnetweb.sln -c Release
     - dotnet test -c Release --no-build UnitTest/UnitTest.csproj /p:CollectCoverage=true /p:CoverletOutputFormat=opencover
